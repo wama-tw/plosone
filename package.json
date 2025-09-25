@@ -9,6 +9,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
+    "preview:gh": "vite preview --base /plosone/ --open /plosone/",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
