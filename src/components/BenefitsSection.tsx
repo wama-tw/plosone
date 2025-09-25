@@ -9,7 +9,7 @@ const benefits = [
   {
     icon: Zap,
     title: "Automated workflows",
-    description: "Reduce reading time by up to 60% with intelligent preprocessing and flagging"
+    description: "Streamline radiology workflows with intelligent preprocessing and automated flagging"
   },
   {
     icon: Shield,

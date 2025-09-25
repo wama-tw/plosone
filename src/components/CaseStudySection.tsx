@@ -25,25 +25,17 @@ const CaseStudySection = () => {
                   reporting—directly improving patient treatment outcomes and reducing missed diagnoses."
                 </blockquote>
                 
-                <div className="grid md:grid-cols-3 gap-8 mt-12">
+                <div className="grid md:grid-cols-1 gap-8 mt-12">
                   <div className="text-center">
                     <div className="text-3xl md:text-4xl font-bold text-primary mb-2">32%</div>
                     <div className="text-muted-foreground">More fractures detected</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl md:text-4xl font-bold text-primary mb-2">60%</div>
-                    <div className="text-muted-foreground">Reduction in reading time</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl md:text-4xl font-bold text-primary mb-2">94%</div>
-                    <div className="text-muted-foreground">Radiologist satisfaction</div>
                   </div>
                 </div>
                 
                 <div className="mt-8 pt-8 border-t border-border">
                   <p className="text-muted-foreground">
-                    <strong className="text-foreground">Metro General Hospital</strong> — 
-                    Leading academic medical center with 500+ beds
+                    <strong className="text-foreground">Harvard Medical School</strong> — 
+                    Student i-lab research collaboration
                   </p>
                 </div>
               </div>

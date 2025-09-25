@@ -18,9 +18,8 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-            Revolutionizing Osteoporosis Treatment with 
-            <span className="bg-gradient-accent bg-clip-text text-transparent"> AI-Powered</span> 
-            <br />Fracture Detection
+            <span className="bg-gradient-accent bg-clip-text text-transparent">PLOS ONE</span>
+            <br />Revolutionizing Osteoporosis Treatment with AI-Powered Fracture Detection
           </h1>
           
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto leading-relaxed">
