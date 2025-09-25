@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 const ContactFooter = () => {
   return (
-    <footer className="bg-gradient-hero text-primary-foreground">
+    <footer id="contact" className="bg-gradient-hero text-primary-foreground">
       {/* CTA Section */}
       <section className="py-20">
         <div className="container mx-auto px-4 text-center">

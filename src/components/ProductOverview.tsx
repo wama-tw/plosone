@@ -2,7 +2,7 @@ import spineImage from "@/assets/spine-ai-detection.jpg";
 
 const ProductOverview = () => {
   return (
-    <section className="py-20 bg-gradient-card">
+    <section id="overview" className="py-20 bg-gradient-card">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
