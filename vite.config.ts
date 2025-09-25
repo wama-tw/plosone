@@ -6,7 +6,7 @@ import { resolve } from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-base: "/plosone/", // ← 部署相對路徑，避免靜態資源找不到
+  base: mode === "production" ? "/plosone/" : "/", // ← 部署相對路徑，避免靜態資源找不到
   server: { host: "::", port: 8080 },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
