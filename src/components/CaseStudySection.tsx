@@ -21,16 +21,16 @@ const CaseStudySection = () => {
               <Quote className="w-12 h-12 text-primary flex-shrink-0 mt-2" />
               <div>
                 <blockquote className="text-2xl md:text-3xl font-medium text-foreground leading-relaxed mb-8">
-                  "In a 12-month deployment, our tool identified 32% more fractures than traditional 
+                  "In a 12-month deployment, our tool identified <span className="text-primary">32% more fractures</span> than traditional 
                   reporting—directly improving patient treatment outcomes and reducing missed diagnoses."
                 </blockquote>
                 
-                <div className="grid md:grid-cols-1 gap-8 mt-12">
+                {/* <div className="grid md:grid-cols-1 gap-8 mt-12">
                   <div className="text-center">
                     <div className="text-3xl md:text-4xl font-bold text-primary mb-2">32%</div>
                     <div className="text-muted-foreground">More fractures detected</div>
                   </div>
-                </div>
+                </div> */}
                 
                 <div className="mt-8 pt-8 border-t border-border">
                   <p className="text-muted-foreground">

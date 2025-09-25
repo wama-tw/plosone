@@ -31,18 +31,20 @@ const ContactFooter = () => {
       
       {/* Footer Content */}
       <div className="border-t border-primary-foreground/20">
-        <div className="container mx-auto px-4 py-12">
-          <div className="grid md:grid-cols-3 gap-8">
+        <div className="container mx-auto max-w-3xl px-4 py-12">
+          <div className="grid md:grid-cols-2 gap-8">
             {/* Company Info */}
+            {/* <div> */}
             <div>
-              <h3 className="text-2xl font-bold mb-4">MedAI Spine</h3>
+              <h3 className="text-2xl font-bold mb-4">PLOS ONE</h3>
               <p className="text-primary-foreground/80 mb-6 leading-relaxed">
                 Revolutionizing osteoporosis treatment through AI-powered vertebral fracture detection.
               </p>
-              <div className="space-y-3">
+              </div>
+              <div className="space-y-3 justify-self-center">
                 <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-accent" />
-                  <span className="text-primary-foreground/80">contact@medaispine.com</span>
+                  <span className="text-primary-foreground/80">contact@plosone.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-accent" />
@@ -50,13 +52,13 @@ const ContactFooter = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="w-5 h-5 text-accent" />
-                  <span className="text-primary-foreground/80">Boston, MA</span>
+                  <span className="text-primary-foreground/80">Cambridge, MA</span>
                 </div>
               </div>
-            </div>
+            {/* </div> */}
             
             {/* Solutions */}
-            <div>
+            {/* <div>
               <h4 className="text-lg font-semibold mb-4">Solutions</h4>
               <ul className="space-y-2 text-primary-foreground/80">
                 <li><a href="#" className="hover:text-accent transition-colors">Fracture Detection</a></li>
@@ -64,10 +66,10 @@ const ContactFooter = () => {
                 <li><a href="#" className="hover:text-accent transition-colors">Clinical Workflow</a></li>
                 <li><a href="#" className="hover:text-accent transition-colors">Research Platform</a></li>
               </ul>
-            </div>
+            </div> */}
             
             {/* Company */}
-            <div>
+            {/* <div>
               <h4 className="text-lg font-semibold mb-4">Company</h4>
               <ul className="space-y-2 text-primary-foreground/80">
                 <li><a href="#" className="hover:text-accent transition-colors">About Us</a></li>
@@ -75,14 +77,13 @@ const ContactFooter = () => {
                 <li><a href="#" className="hover:text-accent transition-colors">Privacy Policy</a></li>
                 <li><a href="#" className="hover:text-accent transition-colors">Terms of Service</a></li>
               </ul>
-            </div>
+            </div> */}
           </div>
-          
-          <div className="mt-12 pt-8 border-t border-primary-foreground/20 text-center">
-            <p className="text-primary-foreground/60">
-              © 2024 MedAI Spine. All rights reserved. Transforming healthcare through artificial intelligence.
-            </p>
-          </div>
+        </div>
+        <div className="p-8 border-t border-primary-foreground/20 text-center">
+          <p className="text-primary-foreground/60">
+            © 2025 PLOS ONE. All rights reserved. Transforming healthcare through artificial intelligence.
+          </p>
         </div>
       </div>
     </footer>
